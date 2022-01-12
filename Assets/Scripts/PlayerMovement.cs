@@ -10,11 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator animator;
 
     private Vector2 _direction;
-    void Start()
-    {
-        
-    }
-
+    
     void Update()
     {
         _direction.x = Input.GetAxisRaw("Horizontal");
@@ -23,6 +19,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        controller.Move(_direction);
+        rb.velocity = Vector2.zero;
+        rb.angularVelocity = 0;
+        if (_direction != Vector2.zero)
+        {
+            animator.SetBool("Moving", true);
+            controller.Move(_direction);
+        }
+        else
+        {
+            animator.SetBool("Moving", false);
+        }
     }
 }

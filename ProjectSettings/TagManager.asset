@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Mucus
+  - Eggs
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - Background
   - 
-  - Player
+  - 
   - 
   - 
   - 
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2257818505
+    locked: 0
+  - name: Enemy
+    uniqueID: 2183974597
     locked: 0

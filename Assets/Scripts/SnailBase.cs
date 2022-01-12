@@ -17,23 +17,6 @@ public class SnailBase : MonoBehaviour
     {
         
     }
-
     
-    
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.CompareTag("Mucus"))
-        {
-            controller.MucusCount++;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Mucus"))
-        {
-            controller.MucusCount--;
-        }
-    }
     
 }

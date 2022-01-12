@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 2bb9374d3b895bf468751241bcbe6a85
+guid: ba29456cd5cfa83419cc418572f37d94
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6343970333237045192
-    second: drawing_0
-  - first:
-      213: 1211334667980390345
-    second: drawing_1
-  - first:
-      213: 3333544748261787210
-    second: drawing_2
-  - first:
-      213: 8287690918416318667
-    second: drawing_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -53,12 +41,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 384
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,91 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: drawing_0
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 649
-        width: 486
-        height: 364
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c7e532086f4a0850800000000000000
-      internalID: 6343970333237045192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: drawing_1
-      rect:
-        serializedVersion: 2
-        x: 567
-        y: 870
-        width: 118
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cf361d66768fc010800000000000000
-      internalID: 1211334667980390345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: drawing_2
-      rect:
-        serializedVersion: 2
-        x: 734
-        y: 885
-        width: 177
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4643036941234e20800000000000000
-      internalID: 3333544748261787210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: drawing_3
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 9
-        width: 853
-        height: 575
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc08f60fafac30370800000000000000
-      internalID: 8287690918416318667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
