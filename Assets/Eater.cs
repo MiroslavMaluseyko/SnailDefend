@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Eater : MonoBehaviour
@@ -26,7 +27,7 @@ public class Eater : MonoBehaviour
     private void Eat(Eatable food)
     {
         _animator.SetTrigger("Eat");
-        Destroy(food);
+        food.Death();
     }
 
 }
